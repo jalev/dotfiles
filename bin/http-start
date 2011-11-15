@@ -1,0 +1,5 @@
+#!/bin/sh
+#
+# Starts the httpd server
+
+/etc/init.d/httpd start

@@ -1,0 +1,5 @@
+#!/bin/sh
+#
+# Reloads whatever config files have been changed in /etc/httpd
+
+/etc/init.d/httpd reload

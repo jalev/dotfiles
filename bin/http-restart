@@ -1,0 +1,5 @@
+#!/bin/sh
+#
+# restarts the http daemon
+
+/etc/init.d/httpd restart
