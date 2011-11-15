@@ -1,0 +1,5 @@
+#!/bin/sh
+#
+# Commit all staged files
+
+git commit -a

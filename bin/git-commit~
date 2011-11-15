@@ -1,0 +1,5 @@
+#!/bin/sh
+#
+# Commit all staged files, even going so far as to add a blanket comment
+
+git commit -m $1 
