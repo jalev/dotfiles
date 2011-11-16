@@ -1,0 +1,5 @@
+#!/bin/sh
+#
+# Makes a template Puppet directory in the current directory
+
+mkdir "$1" "$1/files" "$1/lib/" "$1/manifests" "$1/templates" "$1/tests"

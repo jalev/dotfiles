@@ -1,0 +1,5 @@
+#!/bin/sh
+#
+# Search and replace recursively in the current directory.
+
+grep -lr '$1' * | xargs sed -i 's/$1/$2/g'

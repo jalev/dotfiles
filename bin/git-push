@@ -1,0 +1,5 @@
+#!/bin/sh
+#
+# Pushes to master when we need to. Could be changed to accept a parameter, but I 
+# don't think that's needed at the moment
+git push -u origin master
