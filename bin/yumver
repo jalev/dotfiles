@@ -1,0 +1,6 @@
+#!/bin/sh
+#
+# Returns only the version number of a specific package. Useful for something, and can most definitely be shortened into something better.
+# Written under heavy duress. 
+
+yum list -q $1 | grep '[0-9]\.' | sed 's/[[:alpha:]|(|[:space:]]//g' | awk -F- '{print $1}' | sed 's/\.[0-9][0-9][0-9]//g' | sed 's/\.[0-9][0-9]_[0-9][0-9]//g'
