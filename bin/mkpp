@@ -3,4 +3,4 @@
 # Makes a template Puppet directory in the current directory
 
 mkdir "$1" "$1/files" "$1/lib/" "$1/manifests" "$1/templates" "$1/tests"
-echo -e "class $1 {\n\n}" > "$1/manifests/init.pp"
+echo -e "# Class: $1\n#\n# Parameters:\n#\n# Actions:\n#\n# Requirements\n#\n# Usage:\n\nclass $1 {\n\n}" > "$1/manifests/init.pp"
